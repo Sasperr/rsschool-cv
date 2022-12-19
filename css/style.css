@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth; 
+  }
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* body */
+body { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dbe2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+/* container */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+
+/* header */
+.header {
+    background-color: #5b5049;
+    width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff; 
+  }
+  
+/* main */
+.main {
+    background-color: #c2bebf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 1500px;
+  }
+  .profile {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0px 30px;
+    border-bottom: 10px solid #a59d97;
+  }
+  
+/* очень понравилось как сделано в примере */
+  .profile-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+  }
+  .profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
+  }
+  .main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 2.5px;
+  }
+  .main-title::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 2px;
+    background-color: #a59d97;
+  }
+  .subtitle {
+    margin-top: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+/* body */
+body { 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dbe2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+/* container */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+
+/* header */
+.header {
+    background-color: #5b5049;
+    width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff; 
+  }
+  
+/* main */
+.main {
+    background-color: #c2bebf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 1500px;
+  }
+  .profile {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0px 30px;
+    border-bottom: 10px solid #a59d97;
+  }
+  
+/* очень понравилось как сделано в примере */
+  .profile-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+  }
+  .profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;  
+    text-transform: uppercase;
+  }
+  .main-title {
+    position: relative;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 2.5px;
+  }
+  .main-title::after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 50%;
+    margin-left: -70px;
+    width: 140px;
+    height: 2px;
+    background-color: #a59d97;
+  }
+  .subtitle {
+    margin-top: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+  
